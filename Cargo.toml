@@ -1,0 +1,6 @@
+[workspace]
+members = [
+    "euclase_vulkan",
+    "euclase_hub",
+    "euclase"
+]

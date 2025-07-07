@@ -1,0 +1,7 @@
+[package]
+name = "euclase_vulkan"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+vulkano = "0.35.1"

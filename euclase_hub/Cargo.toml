@@ -1,0 +1,8 @@
+[package]
+name = "euclase_hub"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+euclase_vulkan = { path = "../euclase_vulkan" }
+winit = "0.30.11"

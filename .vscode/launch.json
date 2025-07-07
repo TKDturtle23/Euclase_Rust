@@ -1,0 +1,27 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Debug euclase",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/target/debug/euclase",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "cargo": {
+        "args": ["build", "--package=euclase"]
+      }
+    },
+    {
+      "name": "Debug euclase_hub",
+      "type": "lldb",
+      "request": "launch",
+      "program": "${workspaceFolder}/target/debug/euclase_hub",
+      "args": [],
+      "cwd": "${workspaceFolder}",
+      "cargo": {
+        "args": ["build", "--package=euclase_hub"]
+      }
+    }
+  ]
+}
